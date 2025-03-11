@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2662556932884607654}
   m_Layer: 0
   m_Name: SpecialWaterCube
-  m_TagString: Untagged
+  m_TagString: Special
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
