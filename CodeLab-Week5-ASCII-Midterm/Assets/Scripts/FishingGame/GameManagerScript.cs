@@ -1,9 +1,11 @@
+using TMPro;
 using UnityEngine;
 
 public class GameManagerScript : MonoBehaviour
 {
     private int fishCaught = 0;
     public static GameManagerScript instance;
+    public TextMeshProUGUI fishScore;
 
     public int FishCaught
     {
@@ -14,6 +16,8 @@ public class GameManagerScript : MonoBehaviour
         set
         {
             fishCaught = value;
+            fishScore.text = "Fish: " + fishCaught.ToString();
+            
         }
     }
     
